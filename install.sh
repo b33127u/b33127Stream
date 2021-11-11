@@ -10,8 +10,9 @@ sudo apt install obs-studio -y
 sudo apt install vlc -y
 sudo apt install leafpad -y
 sudo apt install mlocate -y
+sudo apt install wget -y
 sudo updatedb
 sudo mkdir ~/.local/share/vlc/lua/
 sudo mkdir ~/.local/share/vlc/lua/extensions
-sudo mv ytplaylist.luac ~/.local/share/vlc/lua/extensions
+sudo wget https://raw.githubusercontent.com/b33127u/b33127Stream/main/ytplaylist.lua
 sudo figlet Finished
