@@ -14,5 +14,6 @@ sudo apt install wget -y
 sudo updatedb
 sudo mkdir ~/.local/share/vlc/lua/
 sudo mkdir ~/.local/share/vlc/lua/extensions
+sudo cd ~/.local/share/vlc/lua/extensions
 sudo wget https://raw.githubusercontent.com/b33127u/b33127Stream/main/ytplaylist.lua
 sudo figlet Finished
